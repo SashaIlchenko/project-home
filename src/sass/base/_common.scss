@@ -1,0 +1,61 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+    font-family: 'TT Hoves', 'SF Pro Display', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--blackText);
+    // background: url('../images/icecrem_fon_mobile.jpg') 50%/cover repeat-y fixed;
+}
+
+@media screen and (min-width: 768px) {
+    // body {
+    //     background: url('../images/icecrem_fon_tab.jpg') 50%/cover repeat-y fixed;
+    // }
+}
+
+@media screen and (min-width: 1200px) {
+    // body {
+    //     background: url('../images/icecrem_fon_dekstop.jpg') 50%/cover repeat-y fixed;
+    // }
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    transition: color var(--duration) var(--cubic),
+        border-color var(--duration) var(--cubic);
+}
+
+.section {
+    margin-top: 120px;
+}

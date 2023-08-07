@@ -1,2 +1,10 @@
-@import './common';
-@import './example';
+@import '../font/stylesheet.css';
+@import '../font/style.css';
+@import './base/common';
+@import './base/container';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/tasks';
+@import './layout/projects';
+@import './layout/contacts';

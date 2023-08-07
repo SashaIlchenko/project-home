@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home-project</title>
+  <link href="font/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link href="font/style.css" rel="style" type="text/css" />
+  <link rel="stylesheet" href="./sass/index.scss" />
+  <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+  <!-- ❗️❗️❗️ Add partials like so for every page -->
+  <include src="./partials/header.html"></include>
+  <main>
+    <include src="./partials/hero.html"></include>
+    <include src="./partials/about.html"></include>
+    <include src="./partials/tasks.html"></include>
+    <include src="./partials/projects.html"></include>
+    <include src="./partials/contacts.html"></include>
+  </main>
+  <include src="./partials/footer.html"></include>
+</body>
+
 </html>
