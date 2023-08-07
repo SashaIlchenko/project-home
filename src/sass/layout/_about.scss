@@ -48,10 +48,23 @@
     background-color: #FFFFFF;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        color: #FFFFFF;
+        background-color: #333333;
+        cursor: pointer;
+    }
 }
 
 .img-wrapper-about {
     display: flex;
     gap: 30px;
     align-items: center;
+}
+
+.about-button:hover .button-arrow__btn,
+.about-button:focus .button-arrow__btn {
+    fill: #FFFFFF;
 }

@@ -10,6 +10,18 @@
     justify-content: space-between;
 }
 
+.logo-footer-link,
+.list-contacts__item,
+.footer-item,
+.list-social-network__item {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
 .footer-title {
     font-weight: 700;
     font-size: 16px;
