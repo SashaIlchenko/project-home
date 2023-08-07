@@ -1,0 +1,57 @@
+.foot {
+    margin-top: 120px;
+    padding: 60px;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+}
+
+.page-footer-desktop__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.list-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.list-contacts__item {
+    font-style: normal;
+}
+
+.list-social-network {
+    display: flex;
+    gap: 40px;
+}
+
+.social-icon {
+    fill: #FFFFFF;
+    width: 20px;
+    height: 20px;
+}
+
+.contact-icon {
+    fill: #FFFFFF;
+    width: 16px;
+    height: 16px;
+}
