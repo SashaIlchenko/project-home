@@ -4,6 +4,8 @@
     padding-bottom: 45px;
 }
 
+
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -81,5 +83,30 @@
             border-radius: 2px;
         }
 
+    }
+}
+
+@media screen and (max-width:767px) {
+    .page-header-desktop {
+        display: none;
+
+        .open-mobmenu {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            line-height: 0;
+            border: none;
+            background-color: transparent;
+            padding: 0;
+        }
+
+        .main-nav {
+            justify-content: space-between;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .open-mobmenu {
+        display: none;
     }
 }

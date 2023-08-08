@@ -10,6 +10,13 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width:875px) {
+    .footer {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
 .logo-footer-link,
 .list-contacts__item,
 .footer-item,
