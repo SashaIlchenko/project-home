@@ -24,6 +24,20 @@
     font-size: 64px;
     font-weight: 300;
     color: #BDBDBD;
+
+}
+
+.trigger-element {
+    background-color: #f0f0f0;
+}
+
+.animated-element {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.animate {
+    opacity: 1;
 }
 
 .about-text {

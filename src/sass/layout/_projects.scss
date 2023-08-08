@@ -1,3 +1,12 @@
+.animated-element3 {
+    transform: translateX(100%);
+    transition: transform 2s ease-in-out;
+}
+
+.animate3 {
+    transform: translateX(0%);
+}
+
 .project-img-list {
     margin-top: 60px;
     display: flex;

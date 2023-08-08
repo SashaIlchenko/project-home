@@ -2,11 +2,33 @@
     display: flex;
 }
 
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animated-element1 {
+    transform: rotateY(45deg);
+    transition: transform 2s ease-in-out;
+    animation: rotateY 1500ms infinite alternate ease-in-out 1000ms;
+
+}
+
+.animate1 {
+    transform: rotateY(0deg);
+}
+
 .hero-title {
     color: #BDBDBD;
     font-weight: 300;
     font-size: 64px;
     text-transform: uppercase;
+    animation: slideIn 1s ease-in-out alternate;
 }
 
 .hero-title__part {
